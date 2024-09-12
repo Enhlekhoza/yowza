@@ -6318,41 +6318,46 @@
       </main>
     </div>
 
-    <!-- Partners Start -->
+<!-- Partners Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container py-5 mb-5">
-      <div class="bg-white">
-          <!-- Partnerships Heading -->
-          <h2 class="text-center animate__animated animate__fadeInDown" style="color: black;">
-              Partnerships Powering Performance
-          </h2>
-          <p class="text-center animate__animated animate__fadeInUp" style="color: black;">
-              A procurement solution for businesses, focusing on ESD, partner with Yowza to support SMMEs in your supply chain.
-          </p>
+    <div class="bg-white">
+    <!--  Partnerships Heading -->
+    <h3 class="text-center animate__animated animate__fadeInLeft" 
+    style="color: black; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2rem; margin-top: 2rem;">
+    Partnerships Powering Performance
+</h3>
+      
+      <!-- Partnerships Paragraph -->
+      <p class="text-center animate__animated animate__fadeInUp" 
+         style="color: black; font-family: 'Poppins', sans-serif; font-size: 1.25rem; line-height: 1.6; margin-top: 1rem;">
+        A procurement solution for businesses, focusing on ESD, partner with Yowza to support SMMEs in your supply chain.
+      </p>
 
-          <!-- Trusted By Heading -->
-          <h3 class="text-center animate__animated animate__fadeInLeft" style="color: black;">
-              Trusted By
-          </h3>
+      <!-- Trusted By Heading -->
+      <h3 class="text-center animate__animated animate__fadeInLeft" 
+          style="color: black; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2rem; margin-top: 2rem;">
+        Trusted By
+      </h3>
 
-          <!-- Vendor Carousel -->
-          <div class="owl-carousel vendor-carousel">
-              <img src="{{ asset('images/beam-suntory_logo-1.jpg') }}" alt="Beam Suntory" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/bhpbilliton.png') }}" alt="BHP Billiton" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/camaf_logo.png') }}" alt="CAMAF" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/ciolli.png') }}" alt="Ciolli" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/containerworld.png') }}" alt="Container World" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/dash-bpo.png') }}" alt="Dash BPO" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/henkel.png') }}" alt="Henkel" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/huawei.png') }}" alt="Huawei" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/endress-hauser.png') }}" alt="Endress & Hauser" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/dimension-data.png') }}" alt="Dimension Data" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/jaguar.png') }}" alt="Jaguar" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/mott-macdonald.png') }}" alt="Mott MacDonald" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/orange-business-services.png') }}" alt="Orange Business Services" class="animate__animated animate__zoomIn">
-              <img src="{{ asset('images/petrosa.png') }}" alt="PetroSA" class="animate__animated animate__zoomIn">
-          </div>
+      <!-- Vendor Carousel -->
+      <div class="owl-carousel vendor-carousel">
+          <!-- Add your vendor images here -->
+          <img src="{{ asset('images/beam-suntory_logo-1.jpg') }}" alt="Beam Suntory" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/bhpbilliton.png') }}" alt="BHP Billiton" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/camaf_logo.png') }}" alt="CAMAF" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/ciolli.png') }}" alt="Ciolli" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/containerworld.png') }}" alt="Container World" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/dash-bpo.png') }}" alt="Dash BPO" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/huawei.png') }}" alt="Huawei" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/endress-hauser.png') }}" alt="Endress & Hauser" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/dimension-data.png') }}" alt="Dimension Data" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/jaguar.png') }}" alt="Jaguar" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/mott-macdonald.png') }}" alt="Mott MacDonald" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/orange-business-services.png') }}" alt="Orange Business Services" class="animate__animated animate__zoomIn">
+          <img src="{{ asset('images/petrosa.png') }}" alt="PetroSA" class="animate__animated animate__zoomIn">
       </div>
+    </div>
   </div>
 </div>
 <!-- Partners End -->
